@@ -1,0 +1,81 @@
+:root {
+    --bg-color: #f4f6f9;
+    --card-color: #ffffff;
+    --text-color: #2c3e50;
+    --primary-color: #2980b9;
+    --accent-color: #27ae60;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a252f;
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header h1 { margin: 0; font-size: 2.5rem; font-weight: 600; }
+.subtitle { margin-top: 0.5rem; opacity: 0.8; font-size: 1.1rem; }
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: var(--card-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.card h2 { margin-top: 0; border-bottom: 2px solid #ecf0f1; padding-bottom: 0.5rem; }
+
+.link-list { list-style: none; padding: 0; }
+.link-list li { margin: 0.75rem 0; }
+.link-list a { color: var(--primary-color); text-decoration: none; font-weight: bold; }
+.link-list a:hover { text-decoration: underline; }
+
+.portfolio-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.portfolio-table th, .portfolio-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.portfolio-table th { background-color: #f8fafc; }
+
+.btn {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.btn:hover { background-color: #219653; }
+
+.video-btn {
+    background-color: #c0392b; /* Red for video */
+}
+.video-btn:hover {
+    background-color: #e74c3c;
+}
+
+footer { text-align: center; margin: 4rem 0 2rem; font-size: 0.9rem; opacity: 0.7; }

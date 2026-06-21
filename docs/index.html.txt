@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Shewmake - CS 499 ePortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Anthony Shewmake</h1>
+        <p class="subtitle">Computer Science Capstone ePortfolio</p>
+    </header>
+
+    <main class="container">
+        
+        <!-- Professional Introduction -->
+        <section class="card">
+            <h2>Professional Self-Reflection</h2>
+            <p>Welcome to my computer science capstone ePortfolio. This page connects my academic milestones with industry-specific software practices, illustrating my growth in software design, algorithmic safety, and database tier durability.</p>
+            <!-- SNHU Rubric Requirement: Professional Self Assessment Link -->
+            <a href="../narratives/Professional_Self_Assessment.docx" class="btn" style="margin-top: 10px;">Download Professional Self-Assessment</a>
+        </section>
+
+        <!-- The Code Review Video -->
+        <section class="card">
+            <h2>Initial Code Review</h2>
+            <p>This 10-to-12 minute video outlines the architectural vulnerabilities present in the legacy code and details the mitigation plans across my three artifact enhancements.</p>
+            <!-- Replace the # below with your actual YouTube or video link -->
+            <a href="https://youtu.be/SStnFgqhobA" target="_blank" class="btn video-btn">▶ Watch Code Review Video</a>
+        </section>
+
+        <!-- The Artifacts and Source Code Links -->
+        <section class="card">
+            <h2>Technical Artifacts & Source Code</h2>
+            <p>Explore the fully enhanced backend application modules directly within the GitHub repository:</p>
+            <ul class="link-list">
+                <li><a href="../src/main/java/projectone" target="_blank">📂 View Enhanced Java Source Tiers</a></li>
+                <li><a href="../src/test/java/projectone" target="_blank">🧪 View Automated Test Harnesses</a></li>
+            </ul>
+        </section>
+
+        <!-- Core Narratives & Journals -->
+        <section class="card">
+            <h2>Milestone Narratives & Journals</h2>
+            <p>Click below to review or download the formal technical reports and academic reflections:</p>
+            <table class="portfolio-table">
+                <thead>
+                    <tr>
+                        <th>Artifact Focus</th>
+                        <th>Document Type</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Software Design & Engineering</strong></td>
+                        <td>Technical Narrative</td>
+                        <!-- Matches your lowercase 'narratives' folder -->
+                        <td><a href="../narratives/Software_Design_Narrative.docx" class="btn">Download</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Database Persistence Tier</strong></td>
+                        <td>Technical Narrative</td>
+                        <td><a href="../narratives/Database_Enhancement_Narrative.docx" class="btn">Download</a></td>
+                    </tr>
+                   <tr>
+                        <td><strong>Emerging Trends Analysis</strong></td>
+                        <td>Journal Paper</td>
+                        <td><a href="../journals/Emerging_Trends_Journal.docx" class="btn">Download</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Disruptive Technologies</strong></td>
+                        <td>Journal Paper</td>
+                        <td><a href="../journals/Disruptive_Tech_Journal.docx" class="btn">Download</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Anthony Shewmake | Southern New Hampshire University</p>
+    </footer>
+
+</body>
+</html>
